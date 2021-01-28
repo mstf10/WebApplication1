@@ -1,0 +1,31 @@
+table,tr,td,th{
+    border-collapse: collapse;
+    border:1px solid black;
+
+}
+table.fixed {
+    table-layout: fixed;
+    width: 100%;
+}
+table.fixed td {
+    overflow: hidden;
+}
+
+
+button{
+    display: block;
+    background-color: greenyellow;
+}
+
+.noshow{
+    display: none;
+}
+tfoot{
+    display:table-footer-group;
+}
+
+@media print {
+    .noprint {
+        visibility: hidden;
+    }
+}
